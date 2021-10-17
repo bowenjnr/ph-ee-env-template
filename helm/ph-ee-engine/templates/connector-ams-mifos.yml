@@ -20,7 +20,7 @@ spec:
       - name: regcred
       containers:
         - name: ph-ee-connector-ams-mifos
-          image: paymenthubee.azurecr.io/phee/connector-ams-mifos
+          image: paymenthubee.mifos.io:5000/connector-ams-mifos
           ports:
             - containerPort: 5000
           env:
