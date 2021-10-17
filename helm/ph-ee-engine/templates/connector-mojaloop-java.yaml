@@ -20,7 +20,7 @@ spec:
       - name: regcred
       containers:
         - name: ph-ee-connector-mojaloop-java
-          image: paymenthubee.azurecr.io/phee/connector-mojaloop-java
+          image: paymenthubee.mifos.io:5000/phee/connector-mojaloop-java
           ports:
             - containerPort: 5000
           env:
