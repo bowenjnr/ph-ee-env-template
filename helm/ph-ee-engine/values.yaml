@@ -6,7 +6,7 @@ zeebe-cluster:
       host: "zeebe-elasticsearch"
 
   image:
-    repository: paymenthubee.azurecr.io/phee/zeebe
+    repository: paymenthubee.mifos.io:5000/phee/zeebe
     tag: 0.26.1-kafkaclient
   clusterSize: "1"
   partitionCount: "1"
