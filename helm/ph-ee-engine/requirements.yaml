@@ -1,9 +1,9 @@
 dependencies:
 - name: zeebe-cluster-helm
-  repository: https://helm.camundacloud.net
+  repository: https://helm.camunda.io/
   version: 1.0.0
 - name: zeebe-operate-helm
-  repository: https://helm.camundacloud.net
+  repository: https://helm.camunda.io/
   version: 1.0.0
   condition: "zeebe-operate.enabled"
 - name: elasticsearch
